@@ -1,0 +1,20 @@
+{
+    "name": "jrschumacher/symfony-component-httpfoundation-csvresponse",
+    "description": "CSV response for Symfony HttpFoundation",
+    "authors": [
+        {
+            "name": "Ryan Schumacher",
+            "email": "ryan@38pages.com"
+        }
+    ],
+    "require": {
+        "symfony/http-foundation": "*",
+        "goodby/csv": "*"
+    },
+    "autoload": {
+        "psr-4": { "Symfony\\Component\\HttpFoundation\\": "src" }
+    },
+    "autoload-dev": {
+        "psr-4": {"Symfony\\Component\\HttpFoundation\\Tests\\": "tests"}
+    }
+}
